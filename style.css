@@ -1,0 +1,29 @@
+.background{
+    background-color: #d60b0b;
+    min-height: 95vh;
+    border: 8px solid rgb(18, 205, 208);
+}
+.content{
+
+background-color: aliceblue;
+border-radius: 50px;
+box-sizing:900px 500px 500px 500x rgba(169, 26, 26, 0.1);
+padding: 50px 20px;
+text-align: center;
+max-width: 250%;
+width: 900px;
+margin-top: 250px;
+margin-left: 250px;
+height: 25vh;
+
+}
+.heading
+{
+    text-align: center;
+}
+.btn{
+    margin-top: 100px;
+  background-color : yellow;
+  color: blue;
+  
+}
