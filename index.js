@@ -2,8 +2,8 @@
 
 // GET https://icanhazdadjoke.com/
 
-const jokes = document.querySelector('#joke')
-const jokebtn = document.querySelector('#jokebtn')
+const jokes = document.querySelector('#joke');
+const jokebtn = document.querySelector('#jokebtn');
 
 
  
@@ -18,10 +18,11 @@ headers: {
 }
 
 fetch('https://icanhazdadjoke.com/', setHeader)
-.then((res) => {
-console.log(res.json());
+.then((res) => res.json())
+.then ((data)=> {
+    jokes.innerHTML = data.joke;  
 }).catch((error)=>{
-    console.log(error);
+ console.log(error);
 })
 }
 
